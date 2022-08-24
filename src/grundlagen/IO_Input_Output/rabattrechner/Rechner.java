@@ -18,11 +18,11 @@ public class Rechner {
         System.out.println();
         System.out.println("Bitte geben Sie ein");
         System.out.println("Den Preis fuer einen Artikel:");
-            einzelPreisVorRabatt = scanner.nextDouble();
+        einzelPreisVorRabatt = scanner.nextDouble();
         System.out.println("Rabatt (z.B. 0.50):");
-            rabatt = scanner.nextDouble();
+        rabatt = scanner.nextDouble();
         System.out.println("Anzahl der Artikel:");
-           artikelAnzahl = scanner.nextInt();
+        artikelAnzahl = scanner.nextInt();
 
         scanner.close();
 
